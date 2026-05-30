@@ -1,0 +1,35 @@
+# =====================================================
+# DEVELOPMENT PROFILE CONFIGURATION
+# Use: --spring.profiles.active=dev
+# =====================================================
+
+spring:
+  # PostgreSQL Development Database
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pets_platform_dev
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+# Logging - Development
+logging:
+  level:
+    root: DEBUG
+    com.petsplatform: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.web: DEBUG

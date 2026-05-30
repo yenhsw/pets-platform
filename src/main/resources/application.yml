@@ -1,0 +1,55 @@
+# =====================================================
+# SPRING BOOT BASE CONFIGURATION
+# Pets Platform - Enterprise Configuration
+# =====================================================
+
+spring:
+  application:
+    name: pets-platform
+  profiles:
+    active: default
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pets_platform_dev
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+
+  # JPA/Hibernate Configuration
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: false
+        jdbc:
+          batch_size: 25
+          batch_versioned_data: true
+        order_inserts: true
+        order_updates: true
+        default_batch_fetch_size: 25
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    defer-datasource-initialization: true
+
+# Server Configuration
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  compression:
+    enabled: true
+
+# Logging Configuration
+logging:
+  level:
+    root: INFO
+    com.petsplatform: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/pets-platform.log
