@@ -1,0 +1,90 @@
+# ===================================================================
+# BASE CONFIGURATION
+# Kế thừa bởi tất cả profile (dev, staging, prod)
+# Chỉ chứa config CHUNG, không chứa giá trị environment-specific
+# ===================================================================
+
+spring:
+  application:
+    name: pets-platform
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pets_platform_dev
+    username: postgres
+    password: "123456"
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1200000
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        # ── Naming Strategy ────────────────────────────────────
+        # snake_case for columns and tables (PostgreSQL convention)
+        # firstName → first_name
+        # userId → user_id
+        # URL → url (acronyms stay all-caps)
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategySnakeCaseImpl
+          implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+
+        format_sql: true
+        use_sql_comments: false
+        jdbc:
+          batch_size: 25
+          batch_versioned_data: true
+        order_inserts: true
+        order_updates: true
+        # ── SQL Logging ───────────────────────────────────────
+        # Log SQL statements (dev only)
+        show_sql: false
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+    min-response-size: 1024
+
+logging:
+  # ── Slow API Detection ─────────────────────────────────────────
+  slow-api:
+    enabled: true
+    threshold-ms: 1000
+    paths-to-ignore: /actuator/health,/health,/actuator/info
+
+  # ── Request Logging ─────────────────────────────────────────────
+  request:
+    enabled: true
+    max-body-length: 2000
+
+  # ── Log Levels ─────────────────────────────────────────────────
+  level:
+    root: INFO
+    com.petsplatform: INFO
+    org.hibernate.SQL: WARN
+    org.hibernate.orm.jdbc.bind: WARN
+    org.springframework.web: INFO
+    org.springframework.security: WARN
+    # Hibernate SQL with parameters — VERY NOISY, use TRACE sparingly
+    com.petsplatform.infrastructure.database: DEBUG
+
+  # ── Pattern: include traceId for ELK compatibility ─────────────
+  # Fields: timestamp | level | traceId | logger | message
+  # ELK format: traceId được parse như một field, không phải trong message
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %X{traceId:-} %logger{36} - %msg%n"
+
+  # ── File output ────────────────────────────────────────────────
+  file:
+    name: logs/pets-platform.log
+    max-size: 50MB
+    max-history: 14

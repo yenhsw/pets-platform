@@ -1,0 +1,601 @@
+2026-06-08T08:45:17.060+07:00  INFO 11108 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 11108 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T08:45:17.066+07:00  INFO 11108 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T08:45:17.645+07:00  INFO 11108 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T08:45:17.686+07:00  INFO 11108 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2026-06-08T08:45:18.141+07:00  INFO 11108 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T08:45:18.156+07:00  INFO 11108 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T08:45:18.157+07:00  INFO 11108 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T08:45:18.288+07:00  INFO 11108 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T08:45:18.289+07:00  INFO 11108 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1177 ms
+2026-06-08T08:45:18.446+07:00  INFO 11108 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T08:45:18.512+07:00  INFO 11108 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T08:45:18.556+07:00  INFO 11108 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T08:45:18.840+07:00  INFO 11108 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T08:45:18.870+07:00  INFO 11108 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T08:45:19.496+07:00  INFO 11108 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9d99851
+2026-06-08T08:45:19.498+07:00  INFO 11108 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T08:45:19.601+07:00  INFO 11108 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T08:45:19.933+07:00  INFO 11108 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T08:45:19.937+07:00  INFO 11108 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T08:45:20.301+07:00  INFO 11108 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T08:45:20.309+07:00  INFO 11108 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 3.774 seconds (process running for 4.107)
+2026-06-08T08:58:51.624+07:00  INFO 11108 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T08:58:51.628+07:00  INFO 11108 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T08:58:51.632+07:00  INFO 11108 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T08:58:51.635+07:00  INFO 11108 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T08:58:51.638+07:00  INFO 11108 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T08:59:02.720+07:00  INFO 11940 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 11940 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T08:59:02.722+07:00  INFO 11940 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T08:59:03.234+07:00  INFO 11940 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T08:59:03.251+07:00  INFO 11940 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2026-06-08T08:59:03.612+07:00  INFO 11940 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T08:59:03.623+07:00  INFO 11940 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T08:59:03.624+07:00  INFO 11940 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T08:59:03.669+07:00  INFO 11940 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T08:59:03.669+07:00  INFO 11940 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2026-06-08T08:59:03.793+07:00  INFO 11940 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T08:59:03.833+07:00  INFO 11940 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T08:59:03.861+07:00  INFO 11940 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T08:59:04.094+07:00  INFO 11940 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T08:59:04.119+07:00  INFO 11940 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T08:59:04.257+07:00  INFO 11940 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f867b0c
+2026-06-08T08:59:04.257+07:00  INFO 11940 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T08:59:04.324+07:00  INFO 11940 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T08:59:04.600+07:00  INFO 11940 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T08:59:04.605+07:00  INFO 11940 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T08:59:04.932+07:00  INFO 11940 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T08:59:04.943+07:00  INFO 11940 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 2.693 seconds (process running for 2.989)
+2026-06-08T09:18:40.352+07:00  INFO 11940 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T09:18:40.368+07:00  INFO 11940 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T09:18:40.368+07:00  INFO 11940 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:18:40.378+07:00  INFO 11940 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T09:18:40.379+07:00  INFO 11940 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T09:18:50.204+07:00  INFO 7456 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 7456 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T09:18:50.206+07:00  INFO 7456 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T09:18:50.737+07:00  INFO 7456 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T09:18:50.770+07:00  INFO 7456 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2026-06-08T09:18:51.301+07:00  INFO 7456 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T09:18:51.319+07:00  INFO 7456 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T09:18:51.319+07:00  INFO 7456 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T09:18:51.354+07:00  INFO 7456 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T09:18:51.354+07:00  INFO 7456 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2026-06-08T09:18:51.486+07:00  INFO 7456 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T09:18:51.523+07:00  INFO 7456 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T09:18:51.560+07:00  INFO 7456 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T09:18:51.817+07:00  INFO 7456 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T09:18:51.841+07:00  INFO 7456 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T09:18:51.968+07:00  INFO 7456 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e2d8623
+2026-06-08T09:18:51.984+07:00  INFO 7456 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T09:18:52.036+07:00  INFO 7456 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T09:18:52.311+07:00  INFO 7456 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T09:18:52.319+07:00  INFO 7456 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:18:52.673+07:00  INFO 7456 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T09:18:52.673+07:00  INFO 7456 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 2.938 seconds (process running for 3.209)
+2026-06-08T09:31:11.412+07:00  INFO 7456 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T09:31:11.413+07:00  INFO 7456 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T09:31:11.413+07:00  INFO 7456 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:31:11.423+07:00  INFO 7456 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T09:31:11.423+07:00  INFO 7456 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T09:31:23.114+07:00  INFO 7308 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 7308 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T09:31:23.115+07:00  INFO 7308 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T09:31:23.630+07:00  INFO 7308 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T09:31:23.662+07:00  INFO 7308 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2026-06-08T09:31:23.842+07:00  WARN 7308 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T09:31:23.842+07:00  WARN 7308 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T09:31:24.172+07:00  INFO 7308 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T09:31:24.179+07:00  INFO 7308 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T09:31:24.179+07:00  INFO 7308 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T09:31:24.230+07:00  INFO 7308 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T09:31:24.231+07:00  INFO 7308 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2026-06-08T09:31:24.356+07:00  INFO 7308 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T09:31:24.396+07:00  INFO 7308 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T09:31:24.423+07:00  INFO 7308 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T09:31:24.682+07:00  INFO 7308 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T09:31:24.708+07:00  INFO 7308 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T09:31:24.864+07:00  INFO 7308 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66e1b2a
+2026-06-08T09:31:24.864+07:00  INFO 7308 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T09:31:24.943+07:00  INFO 7308 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T09:31:25.265+07:00  INFO 7308 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T09:31:25.270+07:00  INFO 7308 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:31:25.677+07:00  INFO 7308 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T09:31:25.678+07:00  INFO 7308 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 3.034 seconds (process running for 3.35)
+2026-06-08T09:40:10.352+07:00  INFO 7308 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T09:40:10.352+07:00  INFO 7308 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T09:40:10.369+07:00  INFO 7308 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:40:10.372+07:00  INFO 7308 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T09:40:10.372+07:00  INFO 7308 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T09:40:20.487+07:00  INFO 5388 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 5388 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T09:40:20.489+07:00  INFO 5388 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T09:40:20.984+07:00  INFO 5388 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T09:40:21.006+07:00  INFO 5388 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2026-06-08T09:40:21.195+07:00  WARN 5388 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T09:40:21.207+07:00  WARN 5388 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T09:40:21.507+07:00  INFO 5388 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T09:40:21.523+07:00  INFO 5388 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T09:40:21.523+07:00  INFO 5388 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T09:40:21.567+07:00  INFO 5388 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T09:40:21.567+07:00  INFO 5388 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1052 ms
+2026-06-08T09:40:21.700+07:00  INFO 5388 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T09:40:21.733+07:00  INFO 5388 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T09:40:21.767+07:00  INFO 5388 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T09:40:22.002+07:00  INFO 5388 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T09:40:22.032+07:00  INFO 5388 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T09:40:22.178+07:00  INFO 5388 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e50eeb9
+2026-06-08T09:40:22.178+07:00  INFO 5388 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T09:40:22.233+07:00  INFO 5388 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T09:40:22.509+07:00  INFO 5388 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T09:40:22.509+07:00  INFO 5388 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:40:22.847+07:00  INFO 5388 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T09:40:22.847+07:00  INFO 5388 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 2.828 seconds (process running for 3.114)
+2026-06-08T09:50:51.574+07:00  INFO 5388 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T09:50:51.578+07:00  INFO 5388 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T09:50:51.582+07:00  INFO 5388 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:50:51.584+07:00  INFO 5388 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T09:50:51.587+07:00  INFO 5388 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T09:51:01.753+07:00  INFO 14128 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 14128 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T09:51:01.753+07:00  INFO 14128 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T09:51:02.282+07:00  INFO 14128 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T09:51:02.301+07:00  INFO 14128 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2026-06-08T09:51:02.477+07:00  WARN 14128 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T09:51:02.493+07:00  WARN 14128 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T09:51:02.800+07:00  INFO 14128 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T09:51:02.818+07:00  INFO 14128 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T09:51:02.818+07:00  INFO 14128 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T09:51:02.863+07:00  INFO 14128 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T09:51:02.864+07:00  INFO 14128 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2026-06-08T09:51:02.982+07:00  INFO 14128 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T09:51:03.031+07:00  INFO 14128 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T09:51:03.063+07:00  INFO 14128 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T09:51:03.294+07:00  INFO 14128 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T09:51:03.316+07:00  INFO 14128 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T09:51:03.563+07:00  INFO 14128 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ba0ee4a
+2026-06-08T09:51:03.563+07:00  INFO 14128 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T09:51:03.618+07:00  INFO 14128 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T09:51:03.903+07:00  INFO 14128 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T09:51:03.918+07:00  INFO 14128 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T09:51:04.250+07:00  INFO 14128 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T09:51:04.250+07:00  INFO 14128 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 2.96 seconds (process running for 3.261)
+2026-06-08T10:10:15.594+07:00  INFO 14128 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T10:10:15.597+07:00  INFO 14128 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T10:10:15.601+07:00  INFO 14128 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T10:10:15.605+07:00  INFO 14128 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T10:10:15.606+07:00  INFO 14128 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T10:10:26.721+07:00  INFO 9236 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 9236 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T10:10:26.728+07:00  INFO 9236 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T10:10:27.126+07:00  WARN 9236 --- [pets-platform] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'jpaAuditingHandler' defined in null: Cannot register bean definition [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] for bean 'jpaAuditingHandler' since there is already [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] bound.
+2026-06-08T10:10:27.126+07:00  INFO 9236 --- [pets-platform] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-08T10:10:27.153+07:00 ERROR 9236 --- [pets-platform] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'jpaAuditingHandler' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2026-06-08T10:14:10.715+07:00  INFO 14252 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 14252 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T10:14:10.715+07:00  INFO 14252 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T10:14:11.141+07:00  INFO 14252 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T10:14:11.209+07:00  INFO 14252 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-06-08T10:14:11.510+07:00  WARN 14252 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T10:14:11.526+07:00  WARN 14252 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T10:14:11.843+07:00  INFO 14252 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T10:14:11.865+07:00  INFO 14252 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T10:14:11.866+07:00  INFO 14252 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T10:14:11.912+07:00  INFO 14252 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T10:14:11.912+07:00  INFO 14252 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1154 ms
+2026-06-08T10:14:12.043+07:00  INFO 14252 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T10:14:12.090+07:00  INFO 14252 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T10:14:12.112+07:00  INFO 14252 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T10:14:12.344+07:00  INFO 14252 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T10:14:12.360+07:00  INFO 14252 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T10:14:12.513+07:00  INFO 14252 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14df5253
+2026-06-08T10:14:12.513+07:00  INFO 14252 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T10:14:12.572+07:00  INFO 14252 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T10:14:13.314+07:00  INFO 14252 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T10:14:13.414+07:00 ERROR 14252 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [example_users]
+2026-06-08T10:14:13.414+07:00  WARN 14252 --- [pets-platform] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [example_users]
+2026-06-08T10:14:13.414+07:00  INFO 14252 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T10:14:13.414+07:00  INFO 14252 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T10:14:13.431+07:00  INFO 14252 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-08T10:14:13.440+07:00  INFO 14252 --- [pets-platform] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-08T10:14:13.455+07:00 ERROR 14252 --- [pets-platform] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [example_users]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.petsplatform.PetsPlatformApplication.main(PetsPlatformApplication.java:10) ~[classes/:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [example_users]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [example_users]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:99) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:77) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	... 19 common frames omitted
+
+2026-06-08T10:16:27.720+07:00  INFO 5812 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 5812 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T10:16:27.723+07:00  INFO 5812 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T10:16:28.104+07:00  INFO 5812 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T10:16:28.136+07:00  INFO 5812 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2026-06-08T10:16:28.459+07:00  WARN 5812 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T10:16:28.459+07:00  WARN 5812 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T10:16:28.783+07:00  INFO 5812 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T10:16:28.790+07:00  INFO 5812 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T10:16:28.790+07:00  INFO 5812 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T10:16:28.833+07:00  INFO 5812 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T10:16:28.833+07:00  INFO 5812 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
+2026-06-08T10:16:28.978+07:00  INFO 5812 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T10:16:29.015+07:00  INFO 5812 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T10:16:29.048+07:00  INFO 5812 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T10:16:29.269+07:00  INFO 5812 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T10:16:29.291+07:00  INFO 5812 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T10:16:29.446+07:00  INFO 5812 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cb4c4cc
+2026-06-08T10:16:29.446+07:00  INFO 5812 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T10:16:29.497+07:00  INFO 5812 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T10:16:29.792+07:00  INFO 5812 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T10:16:29.792+07:00  INFO 5812 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T10:16:30.156+07:00  INFO 5812 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T10:16:30.156+07:00  INFO 5812 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 2.922 seconds (process running for 3.215)
+2026-06-08T10:51:03.213+07:00  INFO 5812 --- [pets-platform] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08T10:51:03.217+07:00  INFO 5812 --- [pets-platform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-08T10:51:03.222+07:00  INFO 5812 --- [pets-platform] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T10:51:03.225+07:00  INFO 5812 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T10:51:03.227+07:00  INFO 5812 --- [pets-platform] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T10:54:54.070+07:00  INFO 3948 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 3948 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T10:54:54.072+07:00  INFO 3948 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T10:54:54.550+07:00  INFO 3948 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T10:54:54.607+07:00  INFO 3948 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-06-08T10:54:54.989+07:00  WARN 3948 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T10:54:54.996+07:00  WARN 3948 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T10:54:55.322+07:00  INFO 3948 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T10:54:55.333+07:00  INFO 3948 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T10:54:55.334+07:00  INFO 3948 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T10:54:55.406+07:00  INFO 3948 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T10:54:55.407+07:00  INFO 3948 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1295 ms
+2026-06-08T10:54:55.562+07:00  INFO 3948 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T10:54:55.616+07:00  INFO 3948 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T10:54:55.645+07:00  INFO 3948 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T10:54:55.874+07:00  INFO 3948 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T10:54:55.900+07:00  INFO 3948 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T10:54:56.051+07:00  INFO 3948 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c206b14
+2026-06-08T10:54:56.052+07:00  INFO 3948 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T10:54:56.111+07:00  INFO 3948 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T10:54:56.813+07:00  INFO 3948 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T10:54:56.860+07:00 ERROR 3948 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+2026-06-08T10:54:56.862+07:00  WARN 3948 --- [pets-platform] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+2026-06-08T10:54:56.864+07:00  INFO 3948 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T10:54:56.866+07:00  INFO 3948 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T10:54:56.870+07:00  INFO 3948 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-08T10:54:56.887+07:00  INFO 3948 --- [pets-platform] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-08T10:54:56.916+07:00 ERROR 3948 --- [pets-platform] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.petsplatform.PetsPlatformApplication.main(PetsPlatformApplication.java:10) ~[classes/:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:99) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:77) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	... 19 common frames omitted
+
+2026-06-08T11:11:14.626+07:00  INFO 14052 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 14052 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T11:11:14.626+07:00  INFO 14052 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T11:11:15.083+07:00  INFO 14052 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T11:11:15.145+07:00  INFO 14052 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-06-08T11:11:15.514+07:00  WARN 14052 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T11:11:15.532+07:00  WARN 14052 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T11:11:15.850+07:00  INFO 14052 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T11:11:15.868+07:00  INFO 14052 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T11:11:15.868+07:00  INFO 14052 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T11:11:15.918+07:00  INFO 14052 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T11:11:15.918+07:00  INFO 14052 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1248 ms
+2026-06-08T11:11:16.068+07:00  INFO 14052 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T11:11:16.133+07:00  INFO 14052 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T11:11:16.153+07:00  INFO 14052 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T11:11:16.416+07:00  INFO 14052 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T11:11:16.451+07:00  INFO 14052 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T11:11:16.601+07:00  INFO 14052 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@432a6a69
+2026-06-08T11:11:16.601+07:00  INFO 14052 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T11:11:16.653+07:00  INFO 14052 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T11:11:17.372+07:00  INFO 14052 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T11:11:17.402+07:00 ERROR 14052 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+2026-06-08T11:11:17.402+07:00  WARN 14052 --- [pets-platform] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+2026-06-08T11:11:17.402+07:00  INFO 14052 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-08T11:11:17.402+07:00  INFO 14052 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-08T11:11:17.419+07:00  INFO 14052 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-08T11:11:17.428+07:00  INFO 14052 --- [pets-platform] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-08T11:11:17.437+07:00 ERROR 14052 --- [pets-platform] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.petsplatform.PetsPlatformApplication.main(PetsPlatformApplication.java:12) ~[classes/:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 15 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [test_apis]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:99) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:77) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	... 19 common frames omitted
+
+2026-06-08T11:15:38.481+07:00  INFO 14568 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Starting PetsPlatformApplication using Java 21.0.11 with PID 14568 (E:\pet\pets-platform\target\classes started by Admin in E:\pet\pets-platform)
+2026-06-08T11:15:38.481+07:00  INFO 14568 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-08T11:15:38.946+07:00  INFO 14568 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-08T11:15:39.003+07:00  INFO 14568 --- [pets-platform] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-06-08T11:15:39.384+07:00  WARN 14568 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'beanValidationConfig' of type [com.petsplatform.config.BeanValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-08T11:15:39.384+07:00  WARN 14568 --- [pets-platform] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-06-08T11:15:39.716+07:00  INFO 14568 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-08T11:15:39.716+07:00  INFO 14568 --- [pets-platform] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-08T11:15:39.716+07:00  INFO 14568 --- [pets-platform] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-08T11:15:39.771+07:00  INFO 14568 --- [pets-platform] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-08T11:15:39.771+07:00  INFO 14568 --- [pets-platform] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
+2026-06-08T11:15:39.920+07:00  INFO 14568 --- [pets-platform] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-08T11:15:39.988+07:00  INFO 14568 --- [pets-platform] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-08T11:15:40.004+07:00  INFO 14568 --- [pets-platform] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-08T11:15:40.247+07:00  INFO 14568 --- [pets-platform] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-08T11:15:40.272+07:00  INFO 14568 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-08T11:15:40.403+07:00  INFO 14568 --- [pets-platform] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c3d9e28
+2026-06-08T11:15:40.403+07:00  INFO 14568 --- [pets-platform] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-08T11:15:40.470+07:00  INFO 14568 --- [pets-platform] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-08T11:15:41.171+07:00  INFO 14568 --- [pets-platform] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-08T11:15:41.287+07:00  WARN 14568 --- [pets-platform] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2026-06-08T11:15:41.287+07:00  WARN 14568 --- [pets-platform] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk3wya21pxsoxum8tt3h1ws8vky" of relation "test_apis" does not exist, skipping
+2026-06-08T11:15:41.302+07:00  INFO 14568 --- [pets-platform] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-08T11:15:41.572+07:00  INFO 14568 --- [pets-platform] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-08T11:15:42.505+07:00  INFO 14568 --- [pets-platform] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-08T11:15:42.520+07:00  INFO 14568 --- [pets-platform] [main] c.petsplatform.PetsPlatformApplication   : Started PetsPlatformApplication in 4.511 seconds (process running for 4.839)
+2026-06-08T11:15:53.353+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-08T11:15:53.353+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-08T11:15:53.353+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-08T11:15:53.439+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] c.p.s.l.filter.RequestLoggingFilter      : traceId="55c7e92e-3876-4487-8300-ec359b2a85de" requestId="d52c832e" method="GET" uri="/swagger-ui.html" status=302 duration=86ms body=
+2026-06-08T11:15:53.449+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-3] c.p.s.l.filter.RequestLoggingFilter      : traceId="11067d1f-6a9f-4a86-988b-75b84987033c" requestId="15a4bd2d" method="GET" uri="/swagger-ui/index.html" status=200 duration=8ms body=
+2026-06-08T11:15:53.476+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-6] c.p.s.l.filter.RequestLoggingFilter      : traceId="35c46f1d-b7f2-47f8-a770-7ad258013b3c" requestId="e66e906c" method="GET" uri="/swagger-ui/index.css" status=200 duration=2ms body=
+2026-06-08T11:15:53.476+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-5] c.p.s.l.filter.RequestLoggingFilter      : traceId="9dae7981-7868-40bf-9f42-0b29370937fe" requestId="6348c0eb" method="GET" uri="/swagger-ui/swagger-ui.css" status=200 duration=3ms body=
+2026-06-08T11:15:53.479+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-4] c.p.s.l.filter.RequestLoggingFilter      : traceId="cd6418ae-bc49-40e8-88a8-adf7f67a4323" requestId="4db98417" method="GET" uri="/swagger-ui/swagger-ui-standalone-preset.js" status=200 duration=4ms body=
+2026-06-08T11:15:53.486+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-8] c.p.s.l.filter.RequestLoggingFilter      : traceId="6b748913-36a2-42d0-bcd8-d3bad028e18f" requestId="4c385eef" method="GET" uri="/swagger-ui/swagger-ui-bundle.js" status=200 duration=11ms body=
+2026-06-08T11:15:53.507+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-7] c.p.s.l.filter.RequestLoggingFilter      : traceId="98239a57-c299-4788-a6b8-41515bdaf921" requestId="571f4f51" method="GET" uri="/swagger-ui/swagger-initializer.js" status=200 duration=31ms body=
+2026-06-08T11:15:53.641+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-9] c.p.s.l.filter.RequestLoggingFilter      : traceId="9825f475-d0fe-40e8-9e14-bbe5b61985d7" requestId="c1f0642e" method="GET" uri="/swagger-ui/favicon-32x32.png" status=200 duration=2ms body=
+2026-06-08T11:15:53.654+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-2] c.p.s.l.filter.RequestLoggingFilter      : traceId="b764fd6b-acbc-4d07-9701-beb09df28762" requestId="adc393d3" method="GET" uri="/v3/api-docs/swagger-config" status=200 duration=18ms body=
+2026-06-08T11:15:54.196+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 524 ms
+2026-06-08T11:15:54.204+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-10] c.p.s.l.filter.RequestLoggingFilter      : traceId="ab3ced69-eac2-4564-b41a-bc18c5b02af7" requestId="dd06ccd4" method="GET" uri="/v3/api-docs" status=200 duration=542ms body=
+2026-06-08T11:16:05.287+07:00  WARN 14568 --- [pets-platform] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-08T11:16:05.287+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] c.p.s.l.filter.RequestLoggingFilter      : traceId="4b411328-00b8-4132-80cd-edfa1a514d6c" requestId="24ff1561" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=createdAt&sortDir=DESC" status=200 duration=108ms body=
+2026-06-08T11:16:21.509+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-3] c.p.s.l.filter.RequestLoggingFilter      : traceId="da96476b-0193-4b36-b609-4b6a52979f1b" requestId="eacf53b9" method="GET" uri="/api/test-apis?page=0&size=20" status=200 duration=3ms body=
+2026-06-08T11:17:03.682+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-7] c.p.s.l.filter.RequestLoggingFilter      : traceId="66967565-fd8f-4ded-9cca-1d3078f51762" requestId="e5f7b3a2" method="POST" uri="/api/test-apis" status=422 duration=46ms body={
+  "name": "name1",
+  "email": "email1",
+  "phone": "1231231",
+  "age": 1,
+  "gender": "MALE",
+  "salary": 0,
+  "birthDate": "2026-06-08",
+  "bio": "1",
+  "status": "ACTIVE",
+  "score": 0
+}
+2026-06-08T11:17:03.682+07:00  WARN 14568 --- [pets-platform] [http-nio-8080-exec-7] c.p.s.l.filter.RequestLoggingFilter      : traceId="66967565-fd8f-4ded-9cca-1d3078f51762" responseBody={"success":false,"message":"Validation failed for 2 field(s)","data":{"birthDate":"Ngày sinh phải là ngày trong quá khứ","email":"Email không hợp lệ"},"timestamp":"2026-06-08T04:17:03.682620800Z","error":"VALIDATION_FAILED"}
+2026-06-08T11:17:29.614+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-9] c.p.s.l.filter.RequestLoggingFilter      : traceId="79b6ef57-e560-4e89-81c9-05da0a6402a4" requestId="125b712c" method="POST" uri="/api/test-apis" status=201 duration=96ms body={
+  "name": "name1",
+  "email": "email1@gmail.com",
+  "phone": "1231231",
+  "age": 1,
+  "gender": "MALE",
+  "salary": 0,
+  "birthDate": "2026-06-07",
+  "bio": "1",
+  "status": "ACTIVE",
+  "score": 0
+}
+2026-06-08T11:17:34.449+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-2] c.p.s.l.filter.RequestLoggingFilter      : traceId="74aedf3b-5204-4e82-9d02-83dfd38923e3" requestId="ac7043b3" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=createdAt&sortDir=DESC" status=200 duration=8ms body=
+2026-06-08T11:18:10.740+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-10] c.p.s.l.filter.RequestLoggingFilter      : traceId="bcf2aa52-e57d-4654-a0b6-96cd9512a61d" requestId="933c8131" method="POST" uri="/api/test-apis" status=201 duration=5ms body={
+  "name": "name2",
+  "email": "email2@gmail.com",
+  "phone": "000000000001",
+  "age": 2,
+  "gender": "MALE",
+  "salary": 0,
+  "birthDate": "2026-06-06",
+  "bio": "2",
+  "status": "ACTIVE",
+  "score": 1
+}
+2026-06-08T11:18:14.263+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-1] c.p.s.l.filter.RequestLoggingFilter      : traceId="5c286b05-e944-4b28-b616-c3a759f88f00" requestId="74fc4153" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=createdAt&sortDir=DESC" status=200 duration=4ms body=
+2026-06-08T11:18:31.913+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-3] c.p.s.l.filter.RequestLoggingFilter      : traceId="f54d8dcd-416c-4d4b-b55e-cf39471234f8" requestId="e85b3459" method="GET" uri="/api/test-apis?page=0&size=20&sortDir=DESC" status=200 duration=5ms body=
+2026-06-08T11:18:37.382+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-5] c.p.s.l.filter.RequestLoggingFilter      : traceId="a6c8948b-05c9-4831-929b-7db2cbda9862" requestId="4d2c3e6d" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=birthDate&sortDir=DESC" status=200 duration=4ms body=
+2026-06-08T11:18:45.903+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-4] c.p.s.l.filter.RequestLoggingFilter      : traceId="d9880731-d106-407f-b1f7-fb7ffec1096c" requestId="9a5b6ff7" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=birthDate&sortDir=ASC" status=200 duration=5ms body=
+2026-06-08T11:18:50.184+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-6] c.p.s.l.filter.RequestLoggingFilter      : traceId="b9522c3c-a71f-49f7-b681-3997122b7197" requestId="35ac0b19" method="GET" uri="/api/test-apis?page=0&size=20&sortDir=ASC" status=200 duration=4ms body=
+2026-06-08T11:18:52.917+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-8] c.p.s.l.filter.RequestLoggingFilter      : traceId="e6e281cb-6ca8-4397-aa4f-3ffba16c75cf" requestId="2b5602f2" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=birthDate&sortDir=ASC" status=200 duration=5ms body=
+2026-06-08T11:19:00.069+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-7] c.p.s.l.filter.RequestLoggingFilter      : traceId="0a19e58b-1dff-40af-a416-76ccd07d6bc6" requestId="ea4a2f32" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=name&sortDir=ASC" status=200 duration=10ms body=
+2026-06-08T11:19:06.498+07:00  INFO 14568 --- [pets-platform] [http-nio-8080-exec-9] c.p.s.l.filter.RequestLoggingFilter      : traceId="d09e9463-af92-4c82-a0b3-05b1e7c88fbe" requestId="ed793cdb" method="GET" uri="/api/test-apis?page=0&size=20&sortBy=name&sortDir=DESC" status=200 duration=4ms body=
+2026-06-08T12:06:29.020+07:00  WARN 14568 --- [pets-platform] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m47s805ms875µs900ns).
+2026-06-08T13:19:03.177+07:00  WARN 14568 --- [pets-platform] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m3s59ms287µs800ns).
+2026-06-08T13:56:35.079+07:00  WARN 14568 --- [pets-platform] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m31s266ms785µs600ns).

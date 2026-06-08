@@ -1,0 +1,74 @@
+# ===================================================================
+# PROD PROFILE
+# Kích hoạt: --spring.profiles.active=prod
+# ===================================================================
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/petsplatform
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 50
+      minimum-idle: 10
+      idle-timeout: 300000
+      connection-timeout: 20000
+      max-lifetime: 1800000
+      leak-detection-threshold: 60000
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        jdbc:
+          batch_size: 50
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategySnakeCaseImpl
+
+  sql:
+    init:
+      mode: never
+
+logging:
+  slow-api:
+    enabled: true
+    threshold-ms: 500
+    paths-to-ignore: /actuator/health,/health,/actuator/info
+
+  request:
+    enabled: true
+    max-body-length: 500
+
+  level:
+    root: WARN
+    com.petsplatform: INFO
+    org.hibernate.SQL: ERROR
+    org.hibernate.orm.jdbc.bind: WARN
+    org.springframework.web: WARN
+    com.petsplatform.shared.logging.filter: INFO
+
+  # ELK-ready JSON format (khi cần, thêm logstash-logback-encoder dependency)
+  # pattern:
+  #   console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %X{traceId:-} %logger{36} - %msg%n"
+
+  file:
+    name: /var/log/pets-platform/pets-platform.log
+    max-size: 100MB
+    max-history: 30
+
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
+    include-exception: false
+  compression:
+    enabled: true
